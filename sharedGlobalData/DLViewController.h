@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DL_GlobalData.h"
 @interface DLViewController : UIViewController
 
 @end

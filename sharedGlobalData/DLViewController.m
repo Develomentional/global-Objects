@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+        //using global data
+DL_GlobalData.DL_GlobalDataShared.globalPropertyString = @"hello world";
+    [DL_GlobalData.DL_GlobalDataShared globalfunction];
 }
 
 - (void)didReceiveMemoryWarning
