@@ -21,6 +21,7 @@
 		543683E715B18EA800E823DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543683C515B18EA700E823DA /* Foundation.framework */; };
 		543683EF15B18EA800E823DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 543683ED15B18EA800E823DA /* InfoPlist.strings */; };
 		543683F215B18EA800E823DA /* sharedGlobalDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 543683F115B18EA800E823DA /* sharedGlobalDataTests.m */; };
+		543683FD15B18EDD00E823DA /* DL_GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 543683FC15B18EDD00E823DA /* DL_GlobalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,24 @@
 		543683C315B18EA700E823DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		543683C515B18EA700E823DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		543683C715B18EA700E823DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		543683CB15B18EA800E823DA /* sharedGlobalData-Info.plist */ = {isa = PBXFileReference; path = "sharedGlobalData-Info.plist"; sourceTree = "<group>"; };
+		543683CB15B18EA800E823DA /* sharedGlobalData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sharedGlobalData-Info.plist"; sourceTree = "<group>"; };
 		543683CD15B18EA800E823DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		543683CF15B18EA800E823DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		543683D115B18EA800E823DA /* sharedGlobalData-Prefix.pch */ = {isa = PBXFileReference; path = "sharedGlobalData-Prefix.pch"; sourceTree = "<group>"; };
-		543683D215B18EA800E823DA /* DLAppDelegate.h */ = {isa = PBXFileReference; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		543683D115B18EA800E823DA /* sharedGlobalData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sharedGlobalData-Prefix.pch"; sourceTree = "<group>"; };
+		543683D215B18EA800E823DA /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
 		543683D315B18EA800E823DA /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
 		543683D615B18EA800E823DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		543683D915B18EA800E823DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		543683DB15B18EA800E823DA /* DLViewController.h */ = {isa = PBXFileReference; path = DLViewController.h; sourceTree = "<group>"; };
+		543683DB15B18EA800E823DA /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
 		543683DC15B18EA800E823DA /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
 		543683E315B18EA800E823DA /* sharedGlobalDataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharedGlobalDataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		543683E415B18EA800E823DA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		543683EC15B18EA800E823DA /* sharedGlobalDataTests-Info.plist */ = {isa = PBXFileReference; path = "sharedGlobalDataTests-Info.plist"; sourceTree = "<group>"; };
+		543683EC15B18EA800E823DA /* sharedGlobalDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sharedGlobalDataTests-Info.plist"; sourceTree = "<group>"; };
 		543683EE15B18EA800E823DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		543683F015B18EA800E823DA /* sharedGlobalDataTests.h */ = {isa = PBXFileReference; path = sharedGlobalDataTests.h; sourceTree = "<group>"; };
+		543683F015B18EA800E823DA /* sharedGlobalDataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sharedGlobalDataTests.h; sourceTree = "<group>"; };
 		543683F115B18EA800E823DA /* sharedGlobalDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sharedGlobalDataTests.m; sourceTree = "<group>"; };
+		543683FB15B18EDD00E823DA /* DL_GlobalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DL_GlobalData.h; sourceTree = "<group>"; };
+		543683FC15B18EDD00E823DA /* DL_GlobalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DL_GlobalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		543683B415B18EA700E823DA = {
 			isa = PBXGroup;
 			children = (
+				543683FB15B18EDD00E823DA /* DL_GlobalData.h */,
+				543683FC15B18EDD00E823DA /* DL_GlobalData.m */,
 				543683C915B18EA700E823DA /* sharedGlobalData */,
 				543683EA15B18EA800E823DA /* sharedGlobalDataTests */,
 				543683C215B18EA700E823DA /* Frameworks */,
@@ -266,6 +271,7 @@
 				543683D015B18EA800E823DA /* main.m in Sources */,
 				543683D415B18EA800E823DA /* DLAppDelegate.m in Sources */,
 				543683DD15B18EA800E823DA /* DLViewController.m in Sources */,
+				543683FD15B18EDD00E823DA /* DL_GlobalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
