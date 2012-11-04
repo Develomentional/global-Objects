@@ -19,6 +19,7 @@
     [super viewDidLoad];
         //using global data
 DL_GlobalData.DL_GlobalDataShared.globalPropertyString = @"hello world";
+        //use global funtion
     [DL_GlobalData.DL_GlobalDataShared globalfunction];
 }
 

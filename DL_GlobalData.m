@@ -12,8 +12,16 @@
 @synthesize globalPropertyString = _globalPropertyString;
 static DL_GlobalData *DL_GlobalDataShared = nil;
 +(DL_GlobalData *)DL_GlobalDataShared{
-    
-    if (DL_GlobalDataShared == nil) {
+    static dispatch_once_t pred;
+    static DL_GlobalData *DL_GlobalDataShared = nil;
+        //correct way to create threadsafe singlton
+      if (DL_GlobalDataShared == nil) {
+    dispatch_once(&pred, ^{
+        DL_GlobalDataShared = [[DL_GlobalData alloc] init];
+    });
+    return DL_GlobalDataShared;
+
+  
         DL_GlobalDataShared = [[super allocWithZone:NULL]init];
             //initialize properties
         DL_GlobalDataShared.globalPropertyString = [[NSString alloc]init];
@@ -30,10 +38,11 @@ static DL_GlobalData *DL_GlobalDataShared = nil;
     return nil;
 }
 
-
+    //funtion
 -(void)globalfunction{
     
     
 }
+
 
 @end

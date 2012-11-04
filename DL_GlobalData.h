@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface DL_GlobalData : NSObject
-@property (nonatomic, strong)NSString *globalPropertyString;
+@property ( retain, nonatomic)NSString *globalPropertyString;
 -(void)globalfunction;
 
 +(DL_GlobalData *)DL_GlobalDataShared;
